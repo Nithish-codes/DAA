@@ -6,8 +6,9 @@ void search(char pat[], char txt[])
 {
     int m = strlen(pat);
     int n = strlen(txt);
-
-    for (int i = 0; i <= n - m; i++)
+	
+    int i;	
+    for (i = 0; i <= n - m; i++)
     {
         int j;
 
