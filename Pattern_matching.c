@@ -31,7 +31,9 @@ int main()
     char txt[] = "AABAACAADAABAAABAA";
     char pat[] = "AABA";
 
+	clrscr();
     search(pat, txt);
+	getch();
 
     return 0;
 }
